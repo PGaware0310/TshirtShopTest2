@@ -1,0 +1,22 @@
+.header{
+    /* display: flex; */
+    background-color: #440866;
+   display: flex;
+   justify-content: space-between;
+   color: aliceblue;  
+     z-index: -1;
+   }
+   .form{
+   margin-top: 10px;
+   margin-left: 20%;
+   }
+   .h1{
+       margin-left: 20px;
+   }
+   
+   
+   .li{
+       list-style: none;
+       margin-left: 20px;
+       margin-bottom: 20px;
+   }
