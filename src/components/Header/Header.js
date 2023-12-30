@@ -80,7 +80,7 @@ const Header = (props) => {
         {shoeLists.map((shoe, index) => (
           <li className={classes.li} key={index}>
             <p>
-              Name: {shoe.name} - Description: {shoe.description} - Price: Rs.{" "}
+              Name: {shoe.name} - Description: {shoe.description} - Price: Rs.
               {shoe.price}
               <Button>Small: {shoe.availableQuantity.small}</Button>
               <Button>Medium: {shoe.availableQuantity.medium}</Button>
