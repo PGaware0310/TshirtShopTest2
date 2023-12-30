@@ -1,8 +1,8 @@
 import React from "react";
 
 const CartContext=React.createContext({
-    tshirts:[],
-    addTshirt:(item)=>{},
+    shoes:[],
+    addShoe:(item)=>{},
     totalQuantity: 0
 });
 
